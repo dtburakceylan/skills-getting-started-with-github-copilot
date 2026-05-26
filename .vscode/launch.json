@@ -16,6 +16,16 @@
         "src/static/*"
       ],
       "jinja": true
+    },
+    {
+      "name": "Python: Run Pytest Tests",
+      "type": "python",
+      "request": "launch",
+      "module": "pytest",
+      "args": [
+        "tests/"
+      ],
+      "console": "integratedTerminal"
     }
   ]
 }
